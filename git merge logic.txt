@@ -1,0 +1,12 @@
+1.) Switch to main:
+        git checkout main
+2.) Update main:
+        git pull origin main
+3.) Merge branchname into main:
+        git merge branchname
+4.) Resolve conflicts (if any), add resolved files, and commit:
+        git add <file-with-conflicts>
+        git commit
+5.) Push the changes:
+        git push origin main
+
