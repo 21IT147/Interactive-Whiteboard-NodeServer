@@ -6,6 +6,7 @@
 # testing
 /coverage
 
+/git_merge_logic.txt
 # production
 /build
 
