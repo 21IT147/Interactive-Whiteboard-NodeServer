@@ -100,5 +100,5 @@ app.get('/api/get-creator-peer/:roomId', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}/api/rooms`);
 });
