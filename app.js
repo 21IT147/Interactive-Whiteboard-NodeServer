@@ -18,6 +18,9 @@ app.use(bodyParser.json());
 
 app.use('/api/users', userRoutes);
 app.use('/api/rooms', roomRoutes);
+app.get('/',(req,res)=>{
+  res.send("This is Backend of InteractiveWhiteboard");
+})
 app.listen(PORT, () => {
   console.log(`http://localhost:${PORT}`);
 });
